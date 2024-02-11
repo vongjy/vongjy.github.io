@@ -16,9 +16,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/vongjy.pdf", title: "CV"}
+  - {file: "vongjy.pdf", title: "CV"}
   - {title: "Test", url: "https://vongjy.weebly.com/"}
-  - {file: "/blog.md", title: "Blog"}
+  - {file: "blog.md", title: "Blog"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:vongjunyi05@gmail.com"}
