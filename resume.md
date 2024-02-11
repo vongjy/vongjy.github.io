@@ -16,6 +16,17 @@ title: "CV"
 - Treasurer/Tournament Coordinator - MBSSKL Chess Club (2022-2023)
 - Treasurer/Patrol Leader - 10th Kuala Lumpur Air Scouts Group (Senior Troop) (2021-2023)
 
+## Honors and awards
+
+- Immerse Education Essay Competition 2024 Scholarship Award
+- Jeffrey Cheah Entrance Scholarship, Sunway College (2023)
+- Silver Award, IMO National Selection Test - Senior Category (2023)
+- Top 10, National Statistics Competition - Final Round (2023)
+- Gold Award, Kangaroo Mathematics Competiton - Student Category (2023)
+- Anugerah Ketua Pengakap Malaysia / Rambu Pengakap Remaja (2023)
+- Second Prize, Malaysian Schools' Analyst Competition (2022)
+- Gold Award, STEM Online Challenge: Physics Online Quiz (2021)
+
 ## Volunteering
 
 - Helped to host and manage online chess tournament to raise funds for WWF, KSK and Zero Waste Malaysia.
