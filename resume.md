@@ -1,3 +1,8 @@
+---
+layout: page
+title: "CV"
+---
+
 ## Education
 
 - Sijil Pelajaran Malaysia (Malaysian Certificate of Education) - Methodist Boys' Secondary School Kuala Lumpur (2018-2023) \[7A+ 2A 2A-\]
