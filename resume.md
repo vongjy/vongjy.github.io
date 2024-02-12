@@ -18,13 +18,14 @@ title: "CV"
 
 ## Honors and awards
 
-- Immerse Education Essay Competition 2024 Scholarship Award
+- Immerse Education Essay Competition 2024 Scholarship Award (2024)
 - Jeffrey Cheah Entrance Scholarship, Sunway College (2023)
 - Silver Award, IMO National Selection Test - Senior Category (2023)
 - Top 10, National Statistics Competition - Final Round (2023)
 - Gold Award, Kangaroo Mathematics Competiton - Student Category (2023)
 - Anugerah Ketua Pengakap Malaysia / Rambu Pengakap Remaja (2023)
 - Second Prize, Malaysian Schools' Analyst Competition (2022)
+- LAMBS Challenge Trophy Winner, Methodist Boys' Secondary School (2022)
 - Gold Award, STEM Online Challenge: Physics Online Quiz (2021)
 
 ## Certifications
