@@ -15,4 +15,4 @@ Introduction to Linear Algebra - Review Quiz
 
 ## Miscellaneous
 
-[List of Definitions for SPM Physics](/assets/uploads/spm_physics_list_of_defintiions.pdf) <br>
+[List of Definitions for SPM Physics](/assets/uploads/spm_physics_list_of_definitions.pdf) <br>
