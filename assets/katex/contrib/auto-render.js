@@ -283,7 +283,7 @@ var renderMathInElement = function renderMathInElement(elem, options) {
   {
 	  left: "$", 
 	  right: "$", 
-	  display: true
+	  display: false
   },
   // $ must come after $$
   // Render AMS environments even if outside $$…$$ delimiters.
