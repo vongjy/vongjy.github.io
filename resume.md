@@ -36,7 +36,7 @@ title: "CV"
 
 ## Skills
 
-- Software/website tools: MS Office (Excel, Powerpoint, OneNote), VS Code, Overleaf, Obsidian
+- Software/online tools: MS Office (Excel, Powerpoint, OneNote), VS Code, Overleaf, Obsidian
 - Coding: Python, C++, Java, LaTeX
 
 ## Volunteering
