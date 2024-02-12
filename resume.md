@@ -27,6 +27,17 @@ title: "CV"
 - Second Prize, Malaysian Schools' Analyst Competition (2022)
 - Gold Award, STEM Online Challenge: Physics Online Quiz (2021)
 
+## Certifications
+
+- IGCSE English - First Language (A*), Cambridge Assessment International Education.
+- Basic First Aid, Malaysia Red Crescent Society.
+- Python Intermediate, Sololearn.
+
+## Skills
+
+- MS Office (Excel, Powerpoint, OneNote), LaTeX
+- Python, C++, Java
+
 ## Volunteering
 
 - Helped to host and manage online chess tournament to raise funds for WWF, KSK and Zero Waste Malaysia.
