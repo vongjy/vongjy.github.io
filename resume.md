@@ -36,13 +36,14 @@ title: "CV"
 
 ## Skills
 
-- MS Office (Excel, Powerpoint, OneNote), LaTeX
-- Python, C++, Java
+- Software/website tools: MS Office (Excel, Powerpoint, OneNote), VS Code, Overleaf, Obsidian
+- Coding: Python, C++, Java, LaTeX
 
 ## Volunteering
 
-- Helped to host and manage online chess tournament to raise funds for WWF, KSK and Zero Waste Malaysia.
+- Helped to host and manage online chess tournaments to raise funds for WWF, Kechara Soup Kitchen and Zero Waste Malaysia.
 - Demonstrated several experiments (Rainbow Connection, Dancing Blue Flame) in the chemistry lab on Open Day at Sunway College under the supervision of Dr. Yeap Weng Siang.
 - Assisted Alliance of River Three (ART @ MVR3) in transforming river banks into life-sustaining landscapes in urban areas.
+- Raised awareness and support various art forms and artistic expressions by local artists under Melinda Looi's Charity for Children.
 - Helped to refurbish the library at Home for The Children by Rumah Charis.
 
