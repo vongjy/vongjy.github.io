@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Blog"
+mathjax: true
 ---
 
 {% if site.show_excerpts %}
