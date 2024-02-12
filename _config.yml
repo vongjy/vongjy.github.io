@@ -24,6 +24,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:vongjunyi05@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/vongjy"}
+  - {title: Discord, icon: discord, url: "https://discord.com/users/1138150998217597010"}
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/vongjunyi"}
 
 comments:
