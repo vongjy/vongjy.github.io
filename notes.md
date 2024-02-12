@@ -5,7 +5,7 @@ title: "Notes"
 ## Calculus
 Handouts on introductory topics in calculus.
 
-Integration Bee Shortcut (Part I: Limits) <br>
+[Integration Bee Shortcut (Part I: Limits)](/assets/uploads/The_Integration_Bee_Shortcut__Part_I_12_02_2024_edit_.pdf) <br>
 [Integration Bee: A Cheatsheet](/assets/uploads/integration_bee_cheatsheet.pdf)
 
 ## STEM @ MBSSKL
