@@ -13,7 +13,7 @@ Handouts I've created for weekly meetings conducted by MBSSKL Science and Mathem
 
 [Total Internal Reflection - Experiment](/assets/uploads/total_internal_reflection.pdf) <br>
 [Principle of Inclusion-Exclusion (PIE)](/assets/uploads/countingandprobability-senior.pdf) <br>
-Introduction to Linear Algebra - Review Quiz
+[Introduction to Linear Algebra - Review Quiz](/assets/uploads/introduction_to_linear_algebra_review_quiz.pdf)
 
 ## Miscellaneous
 Other uncategorised materials
