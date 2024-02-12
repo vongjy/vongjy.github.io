@@ -182,7 +182,11 @@ var renderMathInElement = function renderMathInElement(elem, options) {
     right: "\\)",
     display: false
   }, // LaTeX uses $…$, but it ruins the display of normal `$` in text:
-  // {left: "$", right: "$", display: false},
+  {
+    left: "$", 
+    right: "$", 
+    display: false
+  },
   // $ must come after $$
   // Render AMS environments even if outside $$…$$ delimiters.
   {
