@@ -5,15 +5,15 @@ title: ""
 # Handouts
 ## Calculus
 
-Integration Bee Shortcut (Part I: Limits) \n
-Integration Bee: A Cheatsheet \n
+Integration Bee Shortcut (Part I: Limits) \\
+Integration Bee: A Cheatsheet \\
 
 ## STEM @ MBSSKL
 
-Total Internal Reflection - Experiment \n
-Principle of Inclusion-Exclusion (PIE) \n
-Introduction to Linear Algebra - Review Quiz \n
+Total Internal Reflection - Experiment \\
+Principle of Inclusion-Exclusion (PIE) \\
+Introduction to Linear Algebra - Review Quiz \\
 
 ## Miscellaneous
 
-List of Definitions for SPM Physics \n
+List of Definitions for SPM Physics \\
