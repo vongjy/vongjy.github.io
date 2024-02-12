@@ -5,8 +5,8 @@ title: "CV"
 
 ## Education
 
-- Sijil Pelajaran Malaysia (Malaysian Certificate of Education) - Methodist Boys' Secondary School Kuala Lumpur (2018-2023) \[7A+ 2A 2A-\]
 - Cambridge GCE A-Level - Sunway College (2023-2024) (expected)
+- Sijil Pelajaran Malaysia (Malaysian Certificate of Education) - Methodist Boys' Secondary School Kuala Lumpur (2018-2023) \[7A+ 2A 2A-\]
 
 ## Clubs and societies
 
@@ -44,3 +44,4 @@ title: "CV"
 - Demonstrated several experiments (Rainbow Connection, Dancing Blue Flame) in the chemistry lab on Open Day at Sunway College under the supervision of Dr. Yeap Weng Siang.
 - Assisted Alliance of River Three (ART @ MVR3) in transforming river banks into life-sustaining landscapes in urban areas.
 - Helped to refurbish the library at Home for The Children by Rumah Charis.
+
