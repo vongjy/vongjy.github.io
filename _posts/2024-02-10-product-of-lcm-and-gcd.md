@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "$\text{lcm}[k,m,n] \cdot \text{gcd}(km,mn,nk)= kmn$"
+title: "lcm[k,m,n] * gcd(km,mn,nk)= kmn"
 mathjax: true
 categories:
   - github
