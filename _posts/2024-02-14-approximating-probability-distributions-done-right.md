@@ -30,3 +30,8 @@ $$\overline{X}(n) \sim N\left(\mu, \frac{\sigma^2}{n}\right),$$where the origina
 
 *Rule of thumb <br>
 **For Further Statistics
+
+References:
+1. Chalmers, Dean. Cambridge International AS & A Level Mathematics: Probability & Statistics 1 - Coursebook. Cambridge University Press, 2018.
+2. Kranat, Jayne. Cambridge International AS & A Level Mathematics: Probability & Statistics 2 - Coursebook. Cambridge University Press, 2018.
+3. McKevley, Lee, and Crozier, Martin. Cambridge International AS & A Level Further Mathematics - Coursebook. Cambridge University Press, 2018.
