@@ -40,8 +40,12 @@ title: "On choosing appropriate hypothesis tests"
 - If the sample sizes are too small to allow us to use $s_x^2$ and $s_y^2$ are estimators, we need to pool these variances (combine them).
 - The pooled estimate of the population variance is <br>
 
-$$\begin{align*}s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\ &= \frac{(n_x-1)s_x^2+(n_y-1)s_y^2}{n_x+n_y+2}.\end{align*}$$ <br>
+$$\begin{align*}
+s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\ 
+&= \frac{(n_x-1)s_x^2+(n_y-1)s_y^2}{n_x+n_y+2}.
+\end{align*}$$
 
+<br>
 (b) Difference in means: Paired sample $t$-tests <br>
 - Assumptions:
 	- Differences are normally distributed
