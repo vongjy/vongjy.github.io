@@ -36,8 +36,10 @@ title: "On choosing appropriate hypothesis tests"
 	- Populations are independent
 	- Population variance of the two populations is the same (but may be unknown).
 - If $n_1$ and $n_2$ are large ($\ge 30$), then the distribution of $(\overline{X}-\overline{Y})$ is given by $$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
-and test statistic is 
+and test statistic is
+
 $$z = \dfrac{\overline{X}-\overline{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$$
+
 - If $n_1$ and $n_2$ are small ($<30$), and the two populations are normally distributed with an **unknown common variance**, then the test statistic $t$ has the distribution $$(\overline{X}-\overline{Y}) \sim t_{n_1+n_2-2}\left(\mu_x-\mu_y, s_p^2\left(\frac{1}{n_1}+\frac{1}{n_2}\right)\right)$$ and $$t = \dfrac{(\overline{X}-\overline{Y})-(\mu_x-\mu_y)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}.$$
 - If the sample sizes are too small to allow us to use $s_x^2$ and $s_y^2$ are estimators, we need to pool these variances (combine them).
 - The pooled estimate of the population variance is <br>
