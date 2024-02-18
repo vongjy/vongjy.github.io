@@ -24,7 +24,7 @@ We can estimate the percentile of grouped data using linear interpolation.
 > $C$ = size of the class interval containing the percentile <br>
 > $P$ = percentile value <br>
 
-**Explanation**
+**Explanation** <br>
 Suppose we plotted a graph of the cumulative frequency against observed data.
 Using both the lower bound and upper bound of the class, we have two points $A(L, M)$ and $B(L+C, M+F)$.
 
@@ -103,7 +103,7 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 > where $d_1 = f_1 - f_0$ and $d_2 = f_2 - f_1$.
 > 
 
-**Explanation**
+**Explanation** <br>
 Suppose we plotted a histogram for our grouped data and we marked 4 points $A, B, C, D$ on the bar of the modal class (see Figure 2) as follows:
 
 ![Figure 2](https://vongjy.github.io/assets/images/diagram-20240218-histogram-new.png)
@@ -112,10 +112,18 @@ The coordinates of the 4 points are $A(L, f_0),\,B(L+C, f_1),\, C(L, f_1),\, D(L
 
 Let $E$ be the point of intersection of $AB$ and $CD$. We seek to obtain the mode, which is the $x$-coordinate of $E$.
 
-Equation of line $AB$:  $y - f_0 = \dfrac{f_1-f_0}{C}(x-L) \dots \dots \dots (1)$ <br>
-Equation of line $CD$:  $y - f_1 = \dfrac{f_2-f_1}{C}(x-L)\dots \dots \dots (2)$
+Equation of line $AB$:  
 
-By solving the system of equations above, we obtain $$x = L + \frac{f_1-f_0}{2f_1-f_0-f_2}C$$
+$$y - f_0 = \dfrac{f_1-f_0}{C}(x-L) \dots \dots \dots (1)$$ 
+
+Equation of line $CD$:  
+
+$$y - f_1 = \dfrac{f_2-f_1}{C}(x-L)\dots \dots \dots (2)$$
+
+By solving the system of equations above, we obtain 
+
+$$\text{Mode} = \boxed{x = L + \frac{f_1-f_0}{2f_1-f_0-f_2}C}$$
+
 and we are done. $\blacksquare$
 
 Subsequently, we can obtain the estimated frequency density of the mode: 
