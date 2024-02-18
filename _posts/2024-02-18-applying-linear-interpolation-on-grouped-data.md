@@ -1,11 +1,15 @@
+---
+layout: post
+mathjax: true
+---
 
 ## Percentiles
 We can estimate the percentile of grouped data using linear interpolation.
 
-#definition
+**Definition**
 >Linear interpolation is a method of curve fitting using linear polynomials to construct new data points within the range of a discrete set of known data points.
 
-#theorem
+**Theorem**
 > We can estimate the percentile with the formula: $$P = L + \frac{\frac{RN}{100} - M}{F}C$$
 > where 
 $L$ = lower boundary of the class interval containing the percentile
@@ -16,7 +20,8 @@ $F$ = frequency of the class interval containing the percentile
 $C$ = size of the class interval containing the percentile
 $P$ = percentile value
 
-#explanation Suppose we plotted a graph of the cumulative frequency against observed data.
+**Explanation**
+Suppose we plotted a graph of the cumulative frequency against observed data.
 Using both the lower bound and upper bound of the class, we have two points $A(L, M)$ and $B(L+C, M+F)$.
 
 We define $R_i$ and $R_f$ as the percentile rank of $A$ and $B$ respectively.
@@ -55,7 +60,7 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 
 
 ## Mode
-#theorem 
+**Theorem**
 > The mode of grouped data can be estimated with the formula:
 > $$\text{Mode}= L + \frac{f_1-f_0}{2f_1-f_0-f_2}C $$
 > where
@@ -70,7 +75,7 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 > where $d_1 = f_1 - f_0$ and $d_2 = f_2 - f_1$.
 > 
 
-#explanation
+**Explanation**
 Suppose we plotted a histogram for our grouped data and we marked 4 points $A, B, C, D$ on the bar of the modal class (see Figure 2) as follows:
 ![Figure 2](https:/vongjy.github.io/assets/images/diagram-20240218-histogram-new.png)
 The coordinates of the 4 points are $A(L, f_0),\,B(L+C, f_1),\, C(L, f_1),\, D(L+C, f_2)$.
