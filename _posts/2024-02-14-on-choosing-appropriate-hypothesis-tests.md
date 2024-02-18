@@ -4,19 +4,19 @@ mathjax: true
 title: "On choosing appropriate hypothesis tests"
 ---
 
-**1. Variances**
+## Variances
 - Population variance: The variance of the entire population, denoted by $\sigma^2$
 - (Biased) Sample variance: The variance of a particular sample from a population, denoted by $S^2$
 - Unbiased estimator for population variance: An estimate of population variance when it is unknown, denoted by $s^2$ or $\hat{\sigma^2}$.
 - **Bessel's correction** - The variances obey the following relationship: $$s^2 = \frac{n}{n-1}S^2$$
 - Standard error refers to $\dfrac{s}{\sqrt{n}}$.
 
-**2. Means**
+## Means
 - Population mean: denoted by $\mu$.
 - Sample mean: usually denoted by $\overline{x}$.
 - $\overline{x}$ is an unbiased estimator for $\mu$.
 
-**3. Parameters and tests for confidence intervals**
+## Parameters and tests for confidence intervals
 - Suppose a significance level of $\alpha \in (0,1)$, then $p := 1-\dfrac{\alpha}{2}$,
 
 | Case | Test | Confidence interval |
@@ -29,7 +29,7 @@ title: "On choosing appropriate hypothesis tests"
 | Difference in population means using large sample | $z$-test | $(\overline{x}-\overline{y}) \pm t_{p, n_1+n_2-2}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$ |
 | Difference in population means with matched pairs | $t$-test | $\overline{d} \pm t_{p, n-1}\dfrac{s_d}{\sqrt{n}}$ |
 
-**4. Hypothesis testing** <br>
+## Hypothesis testing
 (a) Difference in means (two-sample $t$-test) <br>
 - Assumptions: 
 	- Underlying distributions are normal
