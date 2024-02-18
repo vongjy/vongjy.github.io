@@ -39,7 +39,7 @@ title: "On choosing appropriate hypothesis tests"
 
 $$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
 
-and test statistic is
+&nbsp; &nbsp; &nbsp; &nbsp; and test statistic is
 
 $$z = \dfrac{\overline{X}-\overline{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$$
 
@@ -58,7 +58,13 @@ s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\
 	- Differences are normally distributed
 	- Population variance of the two populations is the same (but may be unknown).
 	- Data are matched pairs (repeated measures design).
-- The test statistic $t$ has the distribution  $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $$t = \frac{\overline{d}-k}{\frac{s_d}{\sqrt{n}}}.$$
+- The test statistic $t$ has the distribution  
+
+$$D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$$ 
+
+&nbsp; &nbsp; &nbsp; &nbsp; and 
+
+$$t = \frac{\overline{d}-k}{\frac{s_d}{\sqrt{n}}}.$$
 
 (c) Difference in means: Normal distribution <br>
 - Assumptions:
@@ -66,5 +72,7 @@ s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\
 	- Large sample sizes
 	- Populations are independent
 	- Population variance of the two populations is the same (but may be unknown)
-- The test statistic is $$Z = \frac{(\overline{X}-\overline{Y})-(\mu_x - \mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x}+\frac{\sigma_y^2}{n_y}}} \sim N(0,1).$$
+- The test statistic is
+
+$$Z = \frac{(\overline{X}-\overline{Y})-(\mu_x - \mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x}+\frac{\sigma_y^2}{n_y}}} \sim N(0,1).$$
 
