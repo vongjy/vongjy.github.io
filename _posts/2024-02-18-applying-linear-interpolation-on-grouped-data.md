@@ -106,7 +106,7 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 **Explanation**
 Suppose we plotted a histogram for our grouped data and we marked 4 points $A, B, C, D$ on the bar of the modal class (see Figure 2) as follows:
 
-![Figure 2](https:/vongjy.github.io/assets/images/diagram-20240218-histogram-new.png)
+![Figure 2](https://vongjy.github.io/assets/images/diagram-20240218-histogram-new.png)
 
 The coordinates of the 4 points are $A(L, f_0),\,B(L+C, f_1),\, C(L, f_1),\, D(L+C, f_2)$.
 
