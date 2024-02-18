@@ -5,7 +5,7 @@ title: "Approximating Probability Distributions Done Right"
 ---
 _Disclaimer: This post is written based on the syllabus for Cambridge International AS and A Levels, and may not be applicable for higher level studies._
 
-**Approximation**
+## Approximation
 1. Binomial to Normal:
 	- Conditions*: $np > 5$ and $nq > 5$ ($n$ is sufficiently large).
 	- Apply continuity correction.
@@ -22,7 +22,7 @@ _Disclaimer: This post is written based on the syllabus for Cambridge Internatio
 	- Conditions*: $\lambda > 15$
 	- Apply continuity correction.
 
-**Central Limit Theorem**
+## Central Limit Theorem
 > The central limit theorem (CLT) states that, provided $n$ is large, the distribution of **sample means** of size $n$ is: 
 $$\overline{X}(n) \sim N\left(\mu, \frac{\sigma^2}{n}\right),$$where the original population has mean $\mu$ and variance $\sigma^2$.
 
