@@ -12,15 +12,17 @@ We can estimate the percentile of grouped data using linear interpolation.
 
 **Theorem**
 > We can estimate the percentile with the formula:
+> 
 > $$P = L + \frac{\frac{RN}{100} - M}{F}C$$
-> where 
-> $L$ = lower boundary of the class interval containing the percentile
-> $R$ = percentile rank
-> $N$ = total frequency of observed data
-> $M$ = cumulative frequency of observations up to the preceding class
-> $F$ = frequency of the class interval containing the percentile
-> $C$ = size of the class interval containing the percentile
-> $P$ = percentile value
+> 
+> where <br>
+> $L$ = lower boundary of the class interval containing the percentile <br>
+> $R$ = percentile rank <br>
+> $N$ = total frequency of observed data <br>
+> $M$ = cumulative frequency of observations up to the preceding class <br>
+> $F$ = frequency of the class interval containing the percentile <br>
+> $C$ = size of the class interval containing the percentile <br>
+> $P$ = percentile value <br>
 
 **Explanation**
 Suppose we plotted a graph of the cumulative frequency against observed data.
@@ -36,6 +38,7 @@ R_f &= \frac{M+F}{N} \times 100\%.
 \end{align*}$$
 
 Let $I$ be a point on $\overline{AB}$ where $R$ is its percentile rank (see Figure 1).
+
 ![Figure 1](https://vongjy.github.io/assets/images/diagram-20240218.png)
 
 Note that $I$ divides $\overline{AB}$ in the ratio $(R-R_i):(R_f-R)$ . Hence, the coordinates of $I$ are
@@ -87,11 +90,11 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 > $$\text{Mode}= L + \frac{f_1-f_0}{2f_1-f_0-f_2}C $$
 > 
 > where
-> $L$ = lower boundary of modal class
-> $C$ = class size/interval
-> $f_0$ = frequency density of preceding class
-> $f_1$ = frequency density of modal class
-> $f_2$ = frequency density of succeeding class.
+> $L$ = lower boundary of modal class <br>
+> $C$ = class size/interval <br>
+> $f_0$ = frequency density of preceding class <br>
+> $f_1$ = frequency density of modal class <br>
+> $f_2$ = frequency density of succeeding class. <br>
 >
 > Equivalently,
 > 
@@ -102,7 +105,9 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 
 **Explanation**
 Suppose we plotted a histogram for our grouped data and we marked 4 points $A, B, C, D$ on the bar of the modal class (see Figure 2) as follows:
+
 ![Figure 2](https:/vongjy.github.io/assets/images/diagram-20240218-histogram-new.png)
+
 The coordinates of the 4 points are $A(L, f_0),\,B(L+C, f_1),\, C(L, f_1),\, D(L+C, f_2)$.
 
 Let $E$ be the point of intersection of $AB$ and $CD$. We seek to obtain the mode, which is the $x$-coordinate of $E$.
