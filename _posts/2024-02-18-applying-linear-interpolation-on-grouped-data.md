@@ -113,7 +113,10 @@ Equation of line $CD$:  $y - f_1 = \dfrac{f_2-f_1}{C}(x-L)\dots \dots \dots (2)$
 By solving the system of equations above, we obtain $$x = L + \frac{f_1-f_0}{2f_1-f_0-f_2}C$$
 and we are done. $\blacksquare$
 
-Subsequently, we can obtain the estimated frequency density of the mode $$y = \frac{f_1^2-f_0f_2}{2f_1-f_0-f_2}.$$
+Subsequently, we can obtain the estimated frequency density of the mode: 
+
+$$y = \frac{f_1^2-f_0f_2}{2f_1-f_0-f_2}.$$
+
 IMPORTANT: The formulae above use $f$ to mean frequency density (NOT FREQUENCY) unless sizes of all classes are equal.
 
 Limitations:
