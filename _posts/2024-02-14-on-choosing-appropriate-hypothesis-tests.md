@@ -65,7 +65,7 @@ s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\
 	- Differences are normally distributed
 	- Population variance of the two populations is the same (but may be unknown).
 	- Data are matched pairs (repeated measures design).
-- The test statistic $t$ has the distribution $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $t = \frac{\overline{d}-k}{s_d/sqrt{n}}.$
+- The test statistic $t$ has the distribution $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $t = \frac{\overline{d}-k}{s_d/\sqrt{n}}.$
 
 (c) Difference in means: Normal distribution <br>
 - Assumptions:
