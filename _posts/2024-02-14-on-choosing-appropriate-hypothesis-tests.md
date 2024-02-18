@@ -35,7 +35,10 @@ title: "On choosing appropriate hypothesis tests"
 	- Underlying distributions are normal
 	- Populations are independent
 	- Population variance of the two populations is the same (but may be unknown).
-- If $n_1$ and $n_2$ are large ($\ge 30$), then the distribution of $(\overline{X}-\overline{Y})$ is given by $$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
+- If $n_1$ and $n_2$ are large ($\ge 30$), then the distribution of $(\overline{X}-\overline{Y})$ is given by
+
+$$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
+
 and test statistic is
 
 $$z = \dfrac{\overline{X}-\overline{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$$
