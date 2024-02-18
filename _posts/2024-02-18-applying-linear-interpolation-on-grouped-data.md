@@ -1,6 +1,7 @@
 ---
 layout: post
 mathjax: true
+title: "Applying linear interpolation on grouped data"
 ---
 
 ## Percentiles
