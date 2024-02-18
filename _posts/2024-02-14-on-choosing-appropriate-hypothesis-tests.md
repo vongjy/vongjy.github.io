@@ -39,11 +39,18 @@ title: "On choosing appropriate hypothesis tests"
 
 $$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
 
-&nbsp; &nbsp; &nbsp; &nbsp; and test statistic is
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and test statistic is
 
 $$z = \dfrac{\overline{X}-\overline{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$$
 
-- If $n_1$ and $n_2$ are small ($<30$), and the two populations are normally distributed with an **unknown common variance**, then the test statistic $t$ has the distribution $$(\overline{X}-\overline{Y}) \sim t_{n_1+n_2-2}\left(\mu_x-\mu_y, s_p^2\left(\frac{1}{n_1}+\frac{1}{n_2}\right)\right)$$ and $$t = \dfrac{(\overline{X}-\overline{Y})-(\mu_x-\mu_y)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}.$$
+- If $n_1$ and $n_2$ are small ($<30$), and the two populations are normally distributed with an **unknown common variance**, then the test statistic $t$ has the distribution
+
+$$(\overline{X}-\overline{Y}) \sim t_{n_1+n_2-2}\left(\mu_x-\mu_y, s_p^2\left(\frac{1}{n_1}+\frac{1}{n_2}\right)\right)$$
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and 
+
+$$t = \dfrac{(\overline{X}-\overline{Y})-(\mu_x-\mu_y)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}.$$
+
 - If the sample sizes are too small to allow us to use $s_x^2$ and $s_y^2$ are estimators, we need to pool these variances (combine them).
 - The pooled estimate of the population variance is <br>
 
@@ -58,13 +65,7 @@ s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\
 	- Differences are normally distributed
 	- Population variance of the two populations is the same (but may be unknown).
 	- Data are matched pairs (repeated measures design).
-- The test statistic $t$ has the distribution  
-
-$$D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$$ 
-
-&nbsp; &nbsp; &nbsp; &nbsp; and 
-
-$$t = \frac{\overline{d}-k}{\frac{s_d}{\sqrt{n}}}.$$
+- The test statistic $t$ has the distribution $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $t = \frac{\overline{d}-k}{s_d/sqrt{n}}.$
 
 (c) Difference in means: Normal distribution <br>
 - Assumptions:
