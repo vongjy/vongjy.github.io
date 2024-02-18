@@ -11,15 +11,16 @@ We can estimate the percentile of grouped data using linear interpolation.
 >Linear interpolation is a method of curve fitting using linear polynomials to construct new data points within the range of a discrete set of known data points.
 
 **Theorem**
-> We can estimate the percentile with the formula: $$P = L + \frac{\frac{RN}{100} - M}{F}C$$
+> We can estimate the percentile with the formula:
+> $$P = L + \frac{\frac{RN}{100} - M}{F}C$$
 > where 
-$L$ = lower boundary of the class interval containing the percentile
-$R$ = percentile rank
-$N$ = total frequency of observed data
-$M$ = cumulative frequency of observations up to the preceding class
-$F$ = frequency of the class interval containing the percentile
-$C$ = size of the class interval containing the percentile
-$P$ = percentile value
+> $L$ = lower boundary of the class interval containing the percentile
+> $R$ = percentile rank
+> $N$ = total frequency of observed data
+> $M$ = cumulative frequency of observations up to the preceding class
+> $F$ = frequency of the class interval containing the percentile
+> $C$ = size of the class interval containing the percentile
+> $P$ = percentile value
 
 **Explanation**
 Suppose we plotted a graph of the cumulative frequency against observed data.
@@ -27,16 +28,30 @@ Using both the lower bound and upper bound of the class, we have two points $A(L
 
 We define $R_i$ and $R_f$ as the percentile rank of $A$ and $B$ respectively.
 
-Hence, $$\begin{align*} R_i &= \frac{M}{N} \times 100\% \\ R_f &= \frac{M+F}{N} \times 100\%. \end{align*}$$
+Hence, 
+
+$$\begin{align*} 
+R_i &= \frac{M}{N} \times 100\% \\
+R_f &= \frac{M+F}{N} \times 100\%. 
+\end{align*}$$
+
 Let $I$ be a point on $\overline{AB}$ where $R$ is its percentile rank (see Figure 1).
 ![Figure 1](https://vongjy.github.io/assets/images/diagram-20240218.png)
 
 Note that $I$ divides $\overline{AB}$ in the ratio $(R-R_i):(R_f-R)$ . Hence, the coordinates of $I$ are
-$$\begin{align*} I(x,y) &= \left(\frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n}\right) \\
+
+$$\begin{align*} 
+I(x,y) &= \left(\frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n}\right) \\
 &= \left(\frac{(R_f-R)L+(R-R_i)(L+C)}{R_f - R_i}, \frac{(R_f-R)M+(R-R_i)(M+F)}{R_f - R_i}\right)\\ 
-&= \left(L+\left(\frac{R-R_i}{R_f-R_i}\right)C, M+\left(\frac{R-R_i}{R_f-R_i}\right)F\right) \end{align*}$$
+&= \left(L+\left(\frac{R-R_i}{R_f-R_i}\right)C, M+\left(\frac{R-R_i}{R_f-R_i}\right)F\right) 
+\end{align*}$$
+
 The $x$-coordinate of $I$ is the percentile value:
-$$\begin{align*} P &= L+\left(\frac{R-R_i}{R_f-R_i}\right)C \\ &= L + \left(\frac{R - \frac{100M}{N}}{\frac{100}{N}F}\right)C \\ \therefore P &= \boxed{L + \frac{\frac{RN}{100} - M}{F}C} \end{align*}$$
+
+$$\begin{align*} 
+P &= L+\left(\frac{R-R_i}{R_f-R_i}\right)C \\ 
+&= L + \left(\frac{R - \frac{100M}{N}}{\frac{100}{N}F}\right)C \\ \therefore P &= \boxed{L + \frac{\frac{RN}{100} - M}{F}C} \end{align*}$$
+
 and we are done. $\blacksquare$ 
 
 Additional note: The $y$-coordinate tells us that $P$ is the $\left(\dfrac{RN}{100}\right)^{\mathrm{th}}$ observation. 
@@ -47,7 +62,12 @@ Nevertheless, if the class sizes for the grouped data were smaller, this inaccur
 
 Suppose we know the actual function of data distribution $f(x)$ (frequency vs data), then
 
-$$\begin{align*} \int^P_0{f(x)}\,dx &= \frac{RN}{100} \\ F(P) &= \frac{RN}{100} \\ P &= F^{-1}\left(\frac{RN}{100}\right) \end{align*}$$
+$$\begin{align*} 
+\int^P_0{f(x)}\,dx &= \frac{RN}{100} \\ 
+F(P) &= \frac{RN}{100} \\ 
+P &= F^{-1}\left(\frac{RN}{100}\right) 
+\end{align*}$$
+
 ## Mean (arithmetic mean)
 
 We first obtain the midpoints of the classes $x_1, x_2, \dots , x_n$ where $x_i = (a_i+b_i)/2$ for all $i \in (\mathbb{Z}^+ \cap [1,n])$.
@@ -55,7 +75,7 @@ We first obtain the midpoints of the classes $x_1, x_2, \dots , x_n$ where $x_i 
 
 Then, the sample mean $\overline{x}$ can be estimated as follows:
 $$\overline{x} = \dfrac{\sum f_ix_i}{\sum f_i}$$
-where $f$ = class frequency.
+where $f$ is the class frequency.
 
 Note: This method of computing the sample mean may be inaccurate as it assumes uniform distribution within classes.
 
@@ -63,7 +83,9 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 ## Mode
 **Theorem**
 > The mode of grouped data can be estimated with the formula:
+> 
 > $$\text{Mode}= L + \frac{f_1-f_0}{2f_1-f_0-f_2}C $$
+> 
 > where
 > $L$ = lower boundary of modal class
 > $C$ = class size/interval
@@ -72,7 +94,9 @@ Note: This method of computing the sample mean may be inaccurate as it assumes u
 > $f_2$ = frequency density of succeeding class.
 >
 > Equivalently,
+> 
 > $$\text{Mode}= L + \frac{d_1}{d_1+d_2}C $$
+> 
 > where $d_1 = f_1 - f_0$ and $d_2 = f_2 - f_1$.
 > 
 
@@ -83,7 +107,7 @@ The coordinates of the 4 points are $A(L, f_0),\,B(L+C, f_1),\, C(L, f_1),\, D(L
 
 Let $E$ be the point of intersection of $AB$ and $CD$. We seek to obtain the mode, which is the $x$-coordinate of $E$.
 
-Equation of line $AB$:  $y - f_0 = \dfrac{f_1-f_0}{C}(x-L) \dots \dots \dots (1)$
+Equation of line $AB$:  $y - f_0 = \dfrac{f_1-f_0}{C}(x-L) \dots \dots \dots (1)$ <br>
 Equation of line $CD$:  $y - f_1 = \dfrac{f_2-f_1}{C}(x-L)\dots \dots \dots (2)$
 
 By solving the system of equations above, we obtain $$x = L + \frac{f_1-f_0}{2f_1-f_0-f_2}C$$
