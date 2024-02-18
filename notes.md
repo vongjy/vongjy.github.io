@@ -2,6 +2,14 @@
 layout: page
 title: "Notes"
 ---
+
+## Statistics
+Personal notes on statistics for A-Levels and high school mathematics.
+
+[Applying linear interpolation on grouped data](https://vongjy.github.io/applying-linear-interpolation-on-grouped-data/) <br>
+[On choosing appropriate hypothesis tests](https://vongjy.github.io/on-choosing-appropriate-hypothesis-tests/) <br>
+[Approximating Probability Distributions Done Right](https://vongjy.github.io/approximating-probability-distributions-done-right/)
+
 ## Calculus
 Handouts on introductory topics in calculus.
 
