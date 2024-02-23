@@ -21,13 +21,13 @@ title: "On choosing appropriate hypothesis tests"
 
 | Case | Test | Confidence interval |
 | ---- | ---- | ---- |
-| Population mean with known population variance | $z$-test | $\overline{x} \pm z_p\dfrac{\sigma}{\sqrt{n}}$ |
-| Population mean using large sample (unknown $\sigma^2$) | $z$-test | $\overline{x} \pm z_p\dfrac{s}{\sqrt{n}}$ |
-| Population mean using small sample (unknown $\sigma^2$) | $t$-test | $\overline{x} \pm t_{p, n-1}\dfrac{s}{\sqrt{n}}$ |
+| Population mean with <br> known population variance | $z$-test | $\overline{x} \pm z_p\dfrac{\sigma}{\sqrt{n}}$ |
+| Population mean using <br> large sample (unknown $\sigma^2$) | $z$-test | $\overline{x} \pm z_p\dfrac{s}{\sqrt{n}}$ |
+| Population mean using <br> small sample (unknown $\sigma^2$) | $t$-test | $\overline{x} \pm t_{p, n-1}\dfrac{s}{\sqrt{n}}$ |
 | Population proportion, $\hat{p}$ (large sample) | $z$-test | $\hat{p} \pm z_p\sqrt{\dfrac{\hat{p}(1-\hat{p})}{n}}$ |
-| Difference in population means using small sample | $t$-test | $(\overline{x}-\overline{y}) \pm t_{p, n_1+n_2-2}s_p\sqrt{\dfrac{1}{n_1}+\dfrac{1}{n_2}}$ |
-| Difference in population means using large sample | $z$-test | $(\overline{x}-\overline{y}) \pm t_{p, n_1+n_2-2}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$ |
-| Difference in population means with matched pairs | $t$-test | $\overline{d} \pm t_{p, n-1}\dfrac{s_d}{\sqrt{n}}$ |
+| Difference in population means <br> using small sample | $t$-test | $(\overline{x}-\overline{y}) \pm t_{p, n_1+n_2-2}s_p\sqrt{\dfrac{1}{n_1}+\dfrac{1}{n_2}}$ |
+| Difference in population means <br> using large sample | $z$-test | $(\overline{x}-\overline{y}) \pm t_{p, n_1+n_2-2}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$ |
+| Difference in population means <br> with matched pairs | $t$-test | $\overline{d} \pm t_{p, n-1}\dfrac{s_d}{\sqrt{n}}$ |
 
 ## Hypothesis testing
 (a) Difference in means (two-sample $t$-test) <br>
