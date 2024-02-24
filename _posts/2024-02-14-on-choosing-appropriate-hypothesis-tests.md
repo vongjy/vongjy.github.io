@@ -30,11 +30,13 @@ title: "On choosing appropriate hypothesis tests"
 | Difference in population means <br> with matched pairs | $t$-test | $\overline{d} \pm t_{p, n-1}\dfrac{s_d}{\sqrt{n}}$ |
 
 ## Hypothesis testing
+| Tests                  | Assumptions                                                                                                                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Two-sample $t$-test    | - Underlying distributions are normal.<br>- Populations are independent.<br>- Population variance of the two populations is the same (but may be unknown).                          |
+| Two-sample $z$-test    | - Underlying distributions are normal.<br>- Large sample sizes.<br>- Populations are independent.<br>- Population variance of the two populations is the same (but may be unknown). |
+| Paired sample $t$-test | - Differences are normally distributed.<br>- Population variance of the two populations is the same (but may be unknown).<br>- Data are matched pairs (repeated measures design).   |
+
 (a) Difference in means (two-sample $t$-test) <br>
-- Assumptions: 
-	- Underlying distributions are normal
-	- Populations are independent
-	- Population variance of the two populations is the same (but may be unknown).
 - If $n_1$ and $n_2$ are large ($\ge 30$), then the distribution of $(\overline{X}-\overline{Y})$ is given by
 
 $$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
@@ -61,18 +63,10 @@ s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\
 
 <br>
 (b) Difference in means: Paired sample $t$-tests <br>
-- Assumptions:
-	- Differences are normally distributed
-	- Population variance of the two populations is the same (but may be unknown).
-	- Data are matched pairs (repeated measures design).
 - The test statistic $t$ has the distribution $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $t = \frac{\overline{d}-k}{s_d/\sqrt{n}}.$
 
 (c) Difference in means: Normal distribution <br>
-- Assumptions:
-	- Underlying distributions are normal
-	- Large sample sizes
-	- Populations are independent
-	- Population variance of the two populations is the same (but may be unknown)
+
 - The test statistic is
 
 $$Z = \frac{(\overline{X}-\overline{Y})-(\mu_x - \mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x}+\frac{\sigma_y^2}{n_y}}} \sim N(0,1).$$
