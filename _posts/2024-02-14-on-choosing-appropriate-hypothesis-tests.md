@@ -32,9 +32,9 @@ title: "On choosing appropriate hypothesis tests"
 ## Hypothesis testing (Difference in means)
 | Tests | Assumptions |
 | --- | --- |
-| Two-sample $t$-test    | - Underlying distributions are normal.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown).|
-| Two-sample $z$-test <br> (Normal distribution)   | - Underlying distributions are normal.<br>- Large sample sizes.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown). |
-| Paired sample $t$-test | - Differences are normally distributed.<br>- Population variance of the two populations is the same <br> (but may be unknown).<br>- Data are matched pairs (repeated measures design).   |
+| Two-sample $t$-test | - Underlying distributions are normal.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown). |
+| Two-sample $z$-test <br> (Normal distribution) | - Underlying distributions are normal.<br>- Large sample sizes.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown). |
+| Paired sample $t$-test | - Differences are normally distributed.<br>- Population variance of the two populations is the same <br> (but may be unknown).<br>- Data are matched pairs (repeated measures design). |
 
 ### Two sample $t$-test
 
