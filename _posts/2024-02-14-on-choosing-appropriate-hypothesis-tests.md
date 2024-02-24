@@ -30,6 +30,7 @@ title: "On choosing appropriate hypothesis tests"
 | Difference in population means <br> with matched pairs | $t$-test | $\overline{d} \pm t_{p, n-1}\dfrac{s_d}{\sqrt{n}}$ |
 
 ## Hypothesis testing (Difference in means)
+
 | Tests | Assumptions |
 | --- | --- |
 | Two-sample $t$-test | - Underlying distributions are normal.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown). |
