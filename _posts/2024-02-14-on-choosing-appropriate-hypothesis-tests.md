@@ -29,21 +29,14 @@ title: "On choosing appropriate hypothesis tests"
 | Difference in population means <br> using large sample | $z$-test | $(\overline{x}-\overline{y}) \pm t_{p, n_1+n_2-2}\sqrt{\dfrac{s_1^2}{n_1}+\dfrac{s_2^2}{n_2}}$ |
 | Difference in population means <br> with matched pairs | $t$-test | $\overline{d} \pm t_{p, n-1}\dfrac{s_d}{\sqrt{n}}$ |
 
-## Hypothesis testing
-| Tests                  | Assumptions                                                                                                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Two-sample $t$-test    | - Underlying distributions are normal.<br>- Populations are independent.<br>- Population variance of the two populations is the same (but may be unknown).                          |
-| Two-sample $z$-test    | - Underlying distributions are normal.<br>- Large sample sizes.<br>- Populations are independent.<br>- Population variance of the two populations is the same (but may be unknown). |
-| Paired sample $t$-test | - Differences are normally distributed.<br>- Population variance of the two populations is the same (but may be unknown).<br>- Data are matched pairs (repeated measures design).   |
+## Hypothesis testing (Difference in means)
+| Tests | Assumptions |
+| --- | --- |
+| Two-sample $t$-test    | - Underlying distributions are normal.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown).|
+| Two-sample $z$-test <br> (Normal distribution)   | - Underlying distributions are normal.<br>- Large sample sizes.<br>- Populations are independent.<br>- Population variance of the two populations is the same <br> (but may be unknown). |
+| Paired sample $t$-test | - Differences are normally distributed.<br>- Population variance of the two populations is the same <br> (but may be unknown).<br>- Data are matched pairs (repeated measures design).   |
 
-(a) Difference in means (two-sample $t$-test) <br>
-- If $n_1$ and $n_2$ are large ($\ge 30$), then the distribution of $(\overline{X}-\overline{Y})$ is given by
-
-$$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and test statistic is
-
-$$z = \dfrac{\overline{X}-\overline{Y}-(\mu_x-\mu_y)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$$
+### Two sample $t$-test
 
 - If $n_1$ and $n_2$ are small ($<30$), and the two populations are normally distributed with an **unknown common variance**, then the test statistic $t$ has the distribution
 
@@ -51,7 +44,7 @@ $$(\overline{X}-\overline{Y}) \sim t_{n_1+n_2-2}\left(\mu_x-\mu_y, s_p^2\left(\f
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and 
 
-$$t = \dfrac{(\overline{X}-\overline{Y})-(\mu_x-\mu_y)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}.$$
+$$t = \dfrac{(\overline{x}-\overline{y})-(\mu_x-\mu_y)}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}.$$
 
 - If the sample sizes are too small to allow us to use $s_x^2$ and $s_y^2$ are estimators, we need to pool these variances (combine them).
 - The pooled estimate of the population variance is <br>
@@ -62,12 +55,25 @@ s_p^2 &= \frac{\sum(x-\overline{x})^2+\sum(y-\overline{y})^2}{n_x+n_y+2}\\
 \end{align*}$$
 
 <br>
-(b) Difference in means: Paired sample $t$-tests <br>
-- The test statistic $t$ has the distribution $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $t = \frac{\overline{d}-k}{s_d/\sqrt{n}}.$
 
-(c) Difference in means: Normal distribution <br>
+### Two sample $z$-test (Normal distribution)
 
-- The test statistic is
+- If $n_1$ and $n_2$ are large ($\ge 30$), then the distribution of $(\overline{X}-\overline{Y})$ is given by
 
-$$Z = \frac{(\overline{X}-\overline{Y})-(\mu_x - \mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x}+\frac{\sigma_y^2}{n_y}}} \sim N(0,1).$$
+$$(\overline{X}-\overline{Y}) \sim N\left(\mu_x-\mu_y, \frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}\right)$$
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and test statistic is
+
+$$z = \dfrac{\overline{x}-\overline{y}-(\mu_x-\mu_y)}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}.$$
+
+- If the population variance is known, the test statistic is
+
+$$Z = \frac{(\overline{x}-\overline{y})-(\mu_x - \mu_y)}{\sqrt{\frac{\sigma_x^2}{n_x}+\frac{\sigma_y^2}{n_y}}} \sim N(0,1).$$
+
+<br>
+
+### Paired sample $t$-test
+- The test statistic $t$ has the distribution $D \sim N\left(\mu_d, \dfrac{s_d^2}{n}\right)$ and $t = \dfrac{\overline{d}-k}{s_d/\sqrt{n}}.$
+
+
 
