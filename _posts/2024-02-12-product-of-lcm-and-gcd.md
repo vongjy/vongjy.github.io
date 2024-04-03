@@ -12,7 +12,7 @@ categories:
 
 ### Solution
 We can first express $k, m, n$ using their prime factorization.
-
+<!--more-->
 $$\begin{align*}
 k &= p_1^{a_1}p_2^{a_2}p_3^{a_3}\cdots \\
 m &= p_1^{b_1}p_2^{b_2}p_3^{b_3}\cdots \\
