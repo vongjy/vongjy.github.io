@@ -3,7 +3,7 @@ author: "Vong Jun Yi"
 description: "Vong JY's Personal Site"
 permalink: /:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
+excerpt_separator: <!--more-->
 date_format: "%d %B %Y"
 
 # Layout
