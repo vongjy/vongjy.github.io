@@ -17,7 +17,7 @@ _Disclaimer: This post is written based on the syllabus for Cambridge Internatio
 		- in a given interval of space or time.
 	- The mean and variance of a Poisson distribution are equal.
 	- Conditions*: $n > 50$ and $np < 5$ ($n$ is large, $p$ is small/rare event).
-
+<!--more-->
 3. Poisson to Normal:
 	- Conditions*: $\lambda > 15$
 	- Apply continuity correction.
