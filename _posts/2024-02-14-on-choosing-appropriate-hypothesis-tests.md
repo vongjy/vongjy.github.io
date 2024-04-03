@@ -10,7 +10,7 @@ title: "On choosing appropriate hypothesis tests"
 - Unbiased estimator for population variance: An estimate of population variance when it is unknown, denoted by $s^2$ or $\hat{\sigma^2}$.
 - **Bessel's correction** - The variances obey the following relationship: $$s^2 = \frac{n}{n-1}S^2$$
 - Standard error refers to $\dfrac{s}{\sqrt{n}}$.
-
+<!--more-->
 ## Means
 - Population mean: denoted by $\mu$.
 - Sample mean: usually denoted by $\overline{x}$.
