@@ -1,3 +1,8 @@
+---
+layout: post
+mathjax: true
+title: "Antigraphsketching"
+---
 
 In this article, we will solve an inequality using pure algebra instead of the conventional graph sketching method.
 
