@@ -1,3 +1,10 @@
+---
+layout: post
+mathjax: true
+title: "Exploring non-parametric tests"
+---
+
+
 ## Assumptions
 What do various non-parametric tests assume?
 
