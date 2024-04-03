@@ -9,7 +9,7 @@ We can estimate the percentile of grouped data using linear interpolation.
 
 **Definition**
 >Linear interpolation is a method of curve fitting using linear polynomials to construct new data points within the range of a discrete set of known data points.
-
+\n\n\n
 **Theorem**
 > We can estimate the percentile with the formula:
 > 
