@@ -48,7 +48,9 @@ In a situation where we have $0$ instead of $+$ or $-$, the data point is discou
 It is possible to approximate the sign test to a normal distribution for large $n$ ($n > 10$ can be considered large).
   
 Let $T = \min(S^+, S^-)$, then $E(T) = np = n/2$, and $\mathrm{Var}(T) = npq = n/4.$ <br>
-For large $n$, $$X \sim N\left(\frac{n}{2},\frac{n}{4}\right),$$we can use the normal approximation of the binomial with $p = 0.5$. We must also make sure that we use a continuity correction. 
+For large $n$, 
+$$X \sim N\left(\frac{n}{2},\frac{n}{4}\right),$$ 
+we can use the normal approximation of the binomial with $p = 0.5$. We must also make sure that we use a continuity correction. 
 
 <br>
 
