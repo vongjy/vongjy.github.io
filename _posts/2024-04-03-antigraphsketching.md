@@ -31,7 +31,7 @@ $$\begin{align*}
 \frac{x^2 + 1}{(x+1)(x-7)} &> 1 \\ 
 \frac{6x + 8}{(x+1)(x-7)} &> 0 \\ 
 \frac{x + \frac{4}{3}}{(x+1)(x-7)} &> 0 \\ 
-\end{aligned}$$
+\end{align*}$$
 
 <br>
 
@@ -45,7 +45,7 @@ $$\begin{align*}
 f(x) &> \frac{1}{f(x)} \\ 
 (f(x))^2 - 1 &< 0 \\ 
 (f(x)-1)(f(x)+1) &< 0 \\ 
-\end{aligned} $$
+\end{align*} $$
 
 <br>
 
@@ -55,7 +55,7 @@ From the inequality above, $-1<f(x)< 0$ .
 
 $$\begin{align*} 
 -1 &< \frac{x^2 + 1}{(x+1)(x-7)} < 0 \\ 
-\end{aligned}$$
+\end{align*}$$
 
 <br>
 
