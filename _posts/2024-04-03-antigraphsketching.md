@@ -19,18 +19,18 @@ We first note that $f(x) > 0 \iff x<-1 \vee x> 7$ and $f(x) < 0 \iff -1 < x < 7$
 <br>
 
 $$\begin{align*} 
-f(x) &> \frac{1}{f(x)} \\ 
-(f(x))^2 - 1 &> 0 \\ 
-(f(x)-1)(f(x)+1) &> 0 \\ 
+& f(x) > \frac{1}{f(x)} \\ 
+\implies & (f(x))^2 - 1 > 0 \\ 
+\iff & (f(x)-1)(f(x)+1) > 0 \\ 
 \end{align*} $$
 
 From the inequality above, $f(x) < -1$ (reject since $f(x) > 0$) and $f(x) > 1$.
 When $f(x) > 1$, 
 
 $$\begin{align*} 
-\frac{x^2 + 1}{(x+1)(x-7)} &> 1 \\ 
-\frac{6x + 8}{(x+1)(x-7)} &> 0 \\ 
-\frac{x + \frac{4}{3}}{(x+1)(x-7)} &> 0 \\ 
+& \frac{x^2 + 1}{(x+1)(x-7)} > 1 \\ 
+\iff & \frac{6x + 8}{(x+1)(x-7)} > 0 \\ 
+\iff & \frac{x + \frac{4}{3}}{(x+1)(x-7)} > 0 \\ 
 \end{align*}$$
 
 <br>
@@ -44,20 +44,19 @@ By sign test, $-\dfrac{4}{3} < x < -1$ and $x > 7$.
 <br>
 
 $$\begin{align*} 
-f(x) &> \frac{1}{f(x)} \\ 
-(f(x))^2 - 1 &< 0 \\ 
-(f(x)-1)(f(x)+1) &< 0 \\ 
+& f(x) > \frac{1}{f(x)} \\ 
+\implies & (f(x))^2 - 1 < 0 \\ 
+\iff & (f(x)-1)(f(x)+1) < 0 \\ 
 \end{align*} $$
 
 <br>
 
-From the inequality above, $-1<f(x)< 0$ .
+From the inequality above, $-1 < f(x)< 0$ .
 
 <br>
+This gives 
 
-$$\begin{align*} 
--1 &< \frac{x^2 + 1}{(x+1)(x-7)} < 0 \\ 
-\end{align*}$$
+$$-1 < \frac{x^2 + 1}{(x+1)(x-7)} < 0 $$
 
 <br>
 
@@ -69,15 +68,19 @@ We split the inequality into two parts again.
 
 <br>
 
-$$\frac{x^2 + 1}{(x+1)(x-7)} < 0 \iff x^2 + 1 > 0 \iff x^2 > -1 \implies x \in \mathbb{R}$$
+$$\begin{align*} & \frac{x^2 + 1}{(x+1)(x-7)} < 0 \\
+\iff & x^2 + 1 > 0 \\
+\iff & x^2 > -1 \\
+\implies x \in \mathbb{R} \\
+\end{align*} $$
 
 <br>
 
 $$\begin{align*} 
-\frac{x^2 + 1}{(x+1)(x-7)} &> -1 \\ 
-x^2 + 1 &< 6x +7 -x^2 \\ 
-x^2 -3x -3 &< 0 \\
-\frac{3-\sqrt{21}}{2} &< x < \frac{3+\sqrt{21}}{2} \\
+& \frac{x^2 + 1}{(x+1)(x-7)} > -1 \\ 
+\implies & x^2 + 1 < 6x +7 -x^2 \\ 
+\iff & x^2 -3x -3 &< 0 \\
+\implies & \frac{3-\sqrt{21}}{2} < x < \frac{3+\sqrt{21}}{2} \\
 \end{align*}$$
 
 <br>
