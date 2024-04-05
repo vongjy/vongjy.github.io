@@ -40,7 +40,9 @@ By sign test, $-\dfrac{4}{3} < x < -1$ and $x > 7$.
 <br>
 
 **Case #2:** $f(x) < 0$
+
 <br>
+
 $$\begin{align*} 
 f(x) &> \frac{1}{f(x)} \\ 
 (f(x))^2 - 1 &< 0 \\ 
@@ -71,7 +73,12 @@ $$\frac{x^2 + 1}{(x+1)(x-7)} < 0 \iff x^2 + 1 > 0 \iff x^2 > -1 \implies x \in \
 
 <br>
 
-$$\frac{x^2 + 1}{(x+1)(x-7)} > -1 \iff x^2 + 1 < 6x +7 -x^2 \iff x^2 -3x -3 < 0 \implies \frac{3-\sqrt{21}}{2} < x < \frac{3+\sqrt{21}}{2} $$
+$$\begin{align*} 
+\frac{x^2 + 1}{(x+1)(x-7)} &> -1 \\ 
+x^2 + 1 &< 6x +7 -x^2 \\ 
+x^2 -3x -3 &< 0 \\
+\frac{3-\sqrt{21}}{2} &< x < \frac{3+\sqrt{21}}{2} \\
+\end{align*}$$
 
 <br>
 
