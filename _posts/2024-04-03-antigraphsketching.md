@@ -41,11 +41,12 @@ By sign test, $-\dfrac{4}{3} < x < -1$ and $x > 7$.
 
 **Case #2:** $f(x) < 0$
 
-$$\begin{align*} 
+$$\begin{aligned} 
 & f(x) > \frac{1}{f(x)} \\ 
 \implies & (f(x))^2 - 1 < 0 \\ 
 \iff & (f(x)-1)(f(x)+1) < 0 \\ 
-\end{align*} $$
+\end{aligned} $$
+
 From the inequality above, $-1 < f(x)< 0$ .
 
 This gives 
@@ -55,7 +56,8 @@ This case works for $-1 < x < 7$, so $(x+1)(x-7) < 0$.
 
 We split the inequality into two parts again.
 
-$$\begin{aligned} & \frac{x^2 + 1}{(x+1)(x-7)} < 0 \\
+$$\begin{aligned} 
+& \frac{x^2 + 1}{(x+1)(x-7)} < 0 \\
 \iff & x^2 + 1 > 0 \\
 \iff & x^2 > -1 \\
 \implies & x \in \mathbb{R} \\
