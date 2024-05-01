@@ -27,7 +27,7 @@ Introduction to Linear Algebra - Review Quiz ([pdf](/assets/uploads/introduction
 ## Miscellaneous
 Other uncategorised materials
 
-SMC KMC Workshop 2024 Handout ([pdf](/assets/uploads/KMC_Workshop_Lecture_Notes_v2-6.pdf)) • Solutions ([pdf](/assets/uploads/"Solutions to SMC KMC Workshop v3-2 (with geometry).pdf"))
+SMC KMC Workshop 2024 Handout ([pdf](/assets/uploads/KMC_Workshop_Lecture_Notes_v2-6.pdf)) • Solutions ([pdf](/assets/uploads/"Solutions to SMC KMC Workshop v3-2 (with geometry).pdf")) <br>
 Antigraphsketching ([blog](https://vongjy.github.io/antigraphsketching/)) ([pdf](assets/uploads/2024-04-03-antigraphsketching.pdf))<br>
 Unofficial analysis of IMONST1 2023 problems ([pdf](/assets/uploads/IMONST1_2023_Senior_Category.pdf)) <br>
 List of Definitions for SPM Physics ([pdf](/assets/uploads/spm_physics_list_of_definitions.pdf)) <br>
