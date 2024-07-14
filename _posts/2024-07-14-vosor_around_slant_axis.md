@@ -206,6 +206,7 @@ I_1 &:= \int^\sqrt{2}_0 4x^2 + 12x\sqrt{2} + 4 \,dx \\
 &= \frac{56}{3}\sqrt{2} \\
 \end{aligned}$$
 
+<br>
 
 $$I_2 := \int^\sqrt{2}_0 4x\sqrt{2+8x\sqrt{2}} + 2\sqrt{4+16x\sqrt{2}}\, dx$$
 
