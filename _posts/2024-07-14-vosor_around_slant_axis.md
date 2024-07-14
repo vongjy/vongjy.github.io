@@ -4,7 +4,7 @@ mathjax: true
 title: "VOSOR around slant axis"
 ---
 
-In this post, we'll be discussing the use of several methods to find the volume of solid of revolution around slant axis (besides the $x$-axis and $y$-axis). A problem of this type is quite uncommon - for that reason, this post is written to shed light on this subject matter.
+In this post, we'll be discussing the use of several methods to find the volume of solid of revolution (VOSOR) around slant axis (besides the $x$-axis and $y$-axis). A problem of this type is quite uncommon - for that reason, this post is written to shed light on this subject matter.
 ## Method 1: Pappus' Centroid Theorem
 
 **Theorem 1.1** The second part of **Pappus' Centroid Theorem** states that
@@ -205,6 +205,7 @@ I_1 &:= \int^\sqrt{2}_0 4x^2 + 12x\sqrt{2} + 4 \,dx \\
 &= \left[\frac{4}{3}x^3 + 6x^2\sqrt{2}+4x\right]^{\sqrt{2}}_0 \\
 &= \frac{56}{3}\sqrt{2} \\
 \end{aligned}$$
+
 
 $$I_2 := \int^\sqrt{2}_0 4x\sqrt{2+8x\sqrt{2}} + 2\sqrt{4+16x\sqrt{2}}\, dx$$
 
