@@ -44,15 +44,33 @@ $$M_y = \int \int_R x\rho(x,y) dA$$
 
 Since the density function $\rho$ is not given, we can assume that the lamina has uniform density and assign $\rho(x,y) = 1$.
 
-$$m = \int \int_R \rho(x,y)\,dA = \int^{x=2}_{x=0}\int^{y=-x^2}_{y=x^2-4x}\,dy\,dx = \int^{x=2}_{x=0} 4x - 2x^2 \,dx = \left[\left.2x^2 - \frac{2}{3}x^3\right|^{x=2}_{x=0}\right] = \frac{8}{3}$$
+$$\begin{aligned}
+m &= \int \int_R \rho(x,y)\,dA \\
+&= \int^{x=2}_{x=0}\int^{y=-x^2}_{y=x^2-4x}\,dy\,dx \\
+&= \int^{x=2}_{x=0} 4x - 2x^2 \,dx \\
+&= \left[\left.2x^2 - \frac{2}{3}x^3\right|^{x=2}_{x=0}\right] \\
+&= \frac{8}{3}
+\end{aligned}$$
 
-$$M_x = \int \int_R y\rho(x,y)\,dA = \int^{x=2}_{x=0}\int^{y=-x^2}_{y=x^2-4x}y\,dy\,dx=\int_{x=0}^{x=2}\left[\left.\frac{y^2}{2}\right|^{y=-x^2}_{y=x^2-4x}\right] \, dx = \frac{1}{2}\int^2_0 8x^3 - 16x^2 \,dx = -\frac{16}{3}$$
+$$\begin{aligned}
+M_x &= \int \int_R y\rho(x,y)\,dA \\
+&= \int^{x=2}_{x=0}\int^{y=-x^2}_{y=x^2-4x}y\,dy\,dx \\
+&=\int_{x=0}^{x=2}\left[\left.\frac{y^2}{2}\right|^{y=-x^2}_{y=x^2-4x}\right] \, dx \\
+&= \frac{1}{2}\int^2_0 8x^3 - 16x^2 \,dx \\
+&= -\frac{16}{3} \\
+\end{aligned}$$
 
-$$M_y = \int \int_R x\rho(x,y)\,dA = \int^{x=2}_{x=0}x\int^{y=-x^2}_{y=x^2-4x}\,dy\,dx=\int_{x=0}^{x=2}x(4x-2x^2) \, dx = \int^2_0 4x^2 - 2x^3 \,dx = \frac{8}{3}$$
+$$\begin{aligned}
+M_y &= \int \int_R x\rho(x,y)\,dA \\
+&= \int^{x=2}_{x=0}x\int^{y=-x^2}_{y=x^2-4x}\,dy\,dx \\
+&=\int_{x=0}^{x=2}x(4x-2x^2) \, dx \\
+&= \int^2_0 4x^2 - 2x^3 \,dx \\
+&= \frac{8}{3}\\
+\end{aligned}$$
 
 Hence, $\overline{x} = \dfrac{8/3}{8/3} = 1$ and $\overline{y} = \dfrac{-16/3}{8/3} = -2$.
 
-The distance of the $(\overline{x},\overline{y})$ from the line $y=x$ is $\dfrac{|1-(-2)|}{\sqrt{1^2+(-1)^2}} = \dfrac{3\sqrt{2}}{2}.$
+The distance of the $(\overline{x},\overline{y})$ from the line $y=x$ is $\dfrac{\mid 1-(-2) \mid}{\sqrt{1^2+(-1)^2}} = \dfrac{3\sqrt{2}}{2}.$
 
 Owing to the fact that the lamina has uniform density, the area of the lamina is equal to $m$. 
 
@@ -185,15 +203,17 @@ Then, we define $I_1$ and $I_2$ as follows:
 $$\begin{aligned}
 I_1 &:= \int^\sqrt{2}_0 4x^2 + 12x\sqrt{2} + 4 \,dx \\
 &= \left[\frac{4}{3}x^3 + 6x^2\sqrt{2}+4x\right]^{\sqrt{2}}_0 \\
-&= \frac{56}{3}\sqrt{2}
+&= \frac{56}{3}\sqrt{2} \\
 \end{aligned}$$
 
 $$I_2 := \int^\sqrt{2}_0 4x\sqrt{2+8x\sqrt{2}} + 2\sqrt{4+16x\sqrt{2}}\, dx$$
+
 Let $u^2 = 2+8x\sqrt{2} \iff x = \dfrac{u^2 - 2}{8\sqrt{2}} \implies 2u \, du = 8\sqrt{2} \, dx \iff dx = \dfrac{u}{4\sqrt{2}}du$.
+
 $$\begin{aligned} I_2 &= \int^{3\sqrt{2}}_{\sqrt{2}} \left(4\left(\frac{u^2 -2}{8\sqrt{2}}\right)u + 2u\sqrt{2}\right) \cdot \frac{u}{4\sqrt{2}}\,du \\
 &= \int^{3\sqrt{2}}_{\sqrt{2}} \frac{1}{16}u^4 + \frac{3}{8}u^2 \, du \\
 &= \left[\frac{1}{80}u^2 + \frac{1}{8}u^3\right]^{3\sqrt{2}}_{\sqrt{2}} \\
-&= \frac{93}{5}\sqrt{2}
+&= \frac{93}{5}\sqrt{2} \\
 \end{aligned}$$
 
 Our desired volume is $\displaystyle V= \int^{x=\sqrt{2}}_{x=0}\pi y^2\,dx = \frac{\pi}{4}(I_1 - I_2) = \frac{\pi}{4}\left(\frac{56}{3}\sqrt{2} - \frac{93}{5}\sqrt{2}\right) = \boxed{\frac{\pi\sqrt{2}}{60}}$.
