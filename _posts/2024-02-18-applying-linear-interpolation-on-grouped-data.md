@@ -43,6 +43,8 @@ Let $I$ be a point on $\overline{AB}$ where $R$ is its percentile rank (see Figu
 
 ![Figure 1](https://vongjy.github.io/assets/images/diagram-20240218.png)
 
+**Figure 1** An ogive curve of cumulative frequency graphed against observed data.
+
 Note that $I$ divides $\overline{AB}$ in the ratio $(R-R_i):(R_f-R)$ . Hence, the coordinates of $I$ are
 
 $$\begin{align*} 
