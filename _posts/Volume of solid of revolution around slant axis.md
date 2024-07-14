@@ -1,3 +1,8 @@
+---
+layout: post
+mathjax: true
+title: "VOSOR around slant axis"
+---
 
 In this post, we'll be discussing the use of several methods to find the volume of solid of revolution around slant axis (besides the $x$-axis and $y$-axis). A problem of this type is quite uncommon - for that reason, this post is written to shed light on this subject matter.
 ## Method 1: Pappus' Centroid Theorem
