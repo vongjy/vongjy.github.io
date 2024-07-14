@@ -201,12 +201,12 @@ $$y^2 = \frac{1}{4}\left(4x^2 + 12x\sqrt{2}+4 - 4x\sqrt{2+8x\sqrt{2}} - 2\sqrt{4
 Then, we define $I_1$ and $I_2$ as follows:
 
 $$\begin{aligned}
-I_1 &:= \int^\sqrt{2}_0 4x^2 + 12x\sqrt{2} + 4 \,dx \\
+I_1 &:= \int^{\sqrt{2}}_0 4x^2 + 12x\sqrt{2} + 4 \,dx \\
 &= \left[\frac{4}{3}x^3 + 6x^2\sqrt{2}+4x\right]^{\sqrt{2}}_0 \\
 &= \frac{56}{3}\sqrt{2} \\
 \end{aligned}$$
 
-$\displaystyle I_2 := \int^\sqrt{2}_0 4x\sqrt{2+8x\sqrt{2}} + 2\sqrt{4+16x\sqrt{2}}\, dx$
+$$I_2 := \int^{\sqrt{2}}_0 4x\sqrt{2+8x\sqrt{2}} + 2\sqrt{4+16x\sqrt{2}}\, dx$$
 
 Let $u^2 = 2+8x\sqrt{2} \iff x = \dfrac{u^2 - 2}{8\sqrt{2}} \implies 2u \, du = 8\sqrt{2} \, dx \iff dx = \dfrac{u}{4\sqrt{2}}du$.
 
