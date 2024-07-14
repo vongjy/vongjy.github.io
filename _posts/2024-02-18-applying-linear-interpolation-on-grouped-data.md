@@ -112,6 +112,8 @@ Suppose we plotted a histogram for our grouped data and we marked 4 points $A, B
 
 ![Figure 2](https://vongjy.github.io/assets/images/diagram-20240218-histogram-new.png)
 
+**Figure 2** A histogram showing the position of five points $A,b,C,D,E$ on the bar representing the modal class.
+
 The coordinates of the 4 points are $A(L, f_0),\,B(L+C, f_1),\, C(L, f_1),\, D(L+C, f_2)$.
 
 Let $E$ be the point of intersection of $AB$ and $CD$. We seek to obtain the mode, which is the $x$-coordinate of $E$.
