@@ -80,7 +80,7 @@ Finally, $V = Ad = \left(\dfrac{8}{3}\right)\left(2\pi \cdot \dfrac{3\sqrt{2}}{2
 
 ## Method 2: Riemann Sum
 
-![Figure 2](https://vongjy.github.io/assets/images/vosor/fig2.png)
+![Figure 2](https://vongjy.github.io/assets/images/vosor/fig2.jpg)
 
 This method uses the same concept involved in defining a Riemann integral (with $n$ partitions of width $\Delta x$):
 
