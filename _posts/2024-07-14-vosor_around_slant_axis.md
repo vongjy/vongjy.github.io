@@ -182,7 +182,7 @@ A more straightforward way of rotating graphs is none other than applying a rota
 
 Let $\bf{x}$ be the position vector of a point on $y=x^2$.
 
-Let $\displaystyle M := \begin{bmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{bmatrix}$ , which represents the rotation $\theta$ radians counterclockwise.
+Let $$\bf{M} := \begin{bmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{bmatrix}$$ , which represents the rotation $\theta$ radians counterclockwise.
 
 A graph is transformed by the following equation when $\theta = -\pi/4$:
 
