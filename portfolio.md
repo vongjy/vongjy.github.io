@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CV"
+title: "Portfolio"
 ---
 
 ## Education
@@ -10,7 +10,8 @@ title: "CV"
 
 ## Clubs and societies
 
-- Director of Event Management Department - Sunway Mathematics Club (2023-present)
+- Vice President of External Affairs - Sunway Mathematics Club (2024)
+- Director of Event Management Department - Sunway Mathematics Club (2024)
 - Protocol and Compliance Director - Sunway University Chess Club (2023-present)
 - President - MBSSKL Science and Mathematics Society (2022-2023)
 - Treasurer/Tournament Coordinator - MBSSKL Chess Club (2022-2023)
@@ -18,14 +19,14 @@ title: "CV"
 
 ## Honors and awards
 
-- Immerse Education Essay Competition 2024 Scholarship Award (2024)
+- Champion, UM Integral Bee (Pre-U Category) (2024)
+- High Distinction, Chen Jingrun's Cup (2024)
+- Top 10, National Statistics Competition - Final Round (2023, 2024)
+- Two-time Gold Medallist Kangaroo Mathematics Competiton (2023, 2024)
 - Jeffrey Cheah Entrance Scholarship, Sunway College (2023)
 - Silver Award, IMO National Selection Test - Senior Category (2023)
-- Top 10, National Statistics Competition - Final Round (2023)
-- Gold Award, Kangaroo Mathematics Competiton - Student Category (2023)
 - Anugerah Ketua Pengakap Malaysia / Rambu Pengakap Remaja (2023)
 - Second Prize, Malaysian Schools' Analyst Competition (2022)
-- LAMBS Challenge Trophy Winner, Methodist Boys' Secondary School (2022)
 - Gold Award, STEM Online Challenge: Physics Online Quiz (2021)
 
 ## Certifications
@@ -38,6 +39,12 @@ title: "CV"
 
 - Software/online tools: MS Office (Excel, Powerpoint, OneNote), VS Code, Overleaf, Obsidian
 - Coding: Python, C++, Java, LaTeX
+
+## Teaching Experience
+
+- Taught basic combinatorics to prepare students for the IMO National Selection Test during a workshop conducted by Sunway Mathematics Club (70-80 participants).
+- Speaker for Kangaroo Mathematics Compeititon workshop conducted by Sunway Mathematics Club (40-50 participants), discussed various topics in combinatorics and geometry.
+
 
 ## Volunteering
 
