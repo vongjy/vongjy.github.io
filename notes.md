@@ -27,6 +27,7 @@ Introduction to Linear Algebra - Review Quiz ([pdf](/assets/uploads/introduction
 ## Sunway Mathematics Club
 SMC IMONST1 Workshop 2024 Handout (Day 1: Combinatorics) ([pdf](/assets/uploads/SMC IMONST Workshop 2024 (Day 1 Combinatorics).pdf)) • Day 1 Solutions ([pdf](/assets/uploads/Answer Key to SMC IMONST Workshop 2024 (Day 1 Combinatorics).pdf)) <br>
 SMC IMONST1 Workshop 2024 Handout (Day 2: Number Theory) ([pdf](/assets/uploads/SMC IMONST Workshop 2024 (Day 2 Number Theory).pdf)) • Day 2 Solutions ([pdf](/assets/uploads/Answer Key to SMC IMONST Workshop 2024 (Day 2 Number Theory).pdf)) <br>
+Applying Statistics 101 ([pdf](/assets/uploads/Applying_statistics_101.pdf)) <br>
 SMC KMC Workshop 2024 Handout ([pdf](/assets/uploads/KMC_Workshop_Lecture_Notes_v2-6.pdf)) • Solutions ([pdf](/assets/uploads/Solutions to SMC KMC Workshop v3-2 (with geometry).pdf)) <br>
 
 ## Miscellaneous
