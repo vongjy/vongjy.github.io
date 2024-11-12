@@ -34,5 +34,6 @@ SMC KMC Workshop 2024 Handout ([pdf](/assets/uploads/KMC_Workshop_Lecture_Notes_
 Other uncategorised materials
 
 Antigraphsketching ([blog](https://vongjy.github.io/antigraphsketching/)) ([pdf](assets/uploads/2024-04-03-antigraphsketching.pdf))<br>
-Unofficial analysis of IMONST1 2023 problems ([pdf](/assets/uploads/IMONST1_2023_Senior_Category_(Revised).pdf)) <br>
+Unofficial analysis of IMONST 1 2023 Senior problems ([pdf](/assets/uploads/IMONST1_2023_Senior_Category_(Revised).pdf)) <br>
+IMONST 1 2024 Senior - Problems & Solutions ([pdf](/assets/uploads/IMONST_1_2024_Senior.pdf)) <br>
 List of Definitions for SPM Physics ([pdf](/assets/uploads/spm_physics_list_of_definitions.pdf)) <br>
